@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(132, 115, 115);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.frame{
+    width: 30%;
+    height: 80vh;
+    border-color: rgb(240, 3, 3);
+    border-style: solid;
+    display: flex;
+    margin: auto;
+    border-radius: 30px; 
+    flex-wrap: wrap;
+}
+
+.frame .display{
+    height: 150px;
+    width: 85%;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: red;
+    display: flex;
+    margin: 35px 0px 0 38px;
+}
+
+.frame .lower-section{
+    height: 395px;
+    width: 90%;
+    border-radius: 30px;
+    background-color: aqua;
+    margin: 1rem auto;
+    display: flex;
+}
+
+table{
+    border-spacing: 1em;
+    margin: auto;
+}
+
+button{
+    border-radius: 6px;
+    border: 1px solid red;
+    font-size: 40px;
+    width: 80px;
+    color: azure;
+    background-color: darkslategray;
+}
+
+.btn:hover{
+    background-color: #3e8e41
+}
+
+.btn:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
